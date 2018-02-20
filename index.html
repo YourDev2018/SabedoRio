@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <title>SabedoRio</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+  <style>
+  @media (min-width: 767.5px)
+  {
+    .navbar
+    {
+      background-color: white;
+      color: black;
+    }
+    .titulo-nav
+    {
+      font-weight: 400;
+      font-size: 13px;
+    }
+    .link-nav
+    {
+      background-color: Transparent;
+      background-repeat:no-repeat;
+      border: none;
+      cursor:pointer;
+      overflow: hidden;
+      outline:none;
+      color: #15711C;
+    }
+    .desktop
+    {
+      display: block;
+    }
+    .mobile
+    {
+      display: none;
+    }
+    .titulo-secao
+    {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      font-weight: 700;
+      font-size: 55px;
+    }
+    .texto-secao
+    {
+      margin-bottom: 100px;
+      font-weight: 300;
+      font-size: 20px;
+    }
+    .subtitulo-secao
+    {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      font-weight: 400;
+      font-size: 35px;
+    }
+    .titulo-citacao
+    {
+      font-weight: 600;
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 767.5px)
+  {
+    .navbar
+    {
+      background-color: white;
+      color: black;
+    }
+    .titulo-nav
+    {
+      font-weight: 500;
+    }
+    .link-nav
+    {
+      font-size: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      background-color: Transparent;
+      background-repeat:no-repeat;
+      border: none;
+      cursor:pointer;
+      overflow: hidden;
+      outline:none;
+    }
+    .desktop
+    {
+      display: none;
+    }
+    .mobile
+    {
+      display: block;
+    }
+    .titulo-secao
+    {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-weight: 700;
+      font-size: 55px;
+    }
+    .texto-secao
+    {
+      margin-bottom: 100px;
+      font-weight: 300;
+      font-size: 20px;
+    }
+    .subtitulo-secao
+    {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      font-weight: 400;
+      font-size: 35px;
+    }
+  }
+
+  @media (min-width: 1023px)
+  {
+    .titulo-nav
+    {
+      font-weight: 400;
+      font-size: 20px;
+    }
+  }
+
+  </style>
+  <body>
+
+    <!-- Desktop -->
+    <nav class="navbar desktop text-center">
+      <a class="navbar-brand titulo-nav">
+        &nbsp;&nbsp;
+        <menu-nav class="link-nav">Sobre</menu-nav>
+        &nbsp;&nbsp;
+        <menu-nav class="link-nav">Programas</menu-nav>
+        &nbsp;&nbsp;
+        <menu-nav class="link-nav">Equipe</menu-nav>
+        &nbsp;&nbsp;
+        <img src="img/logo.png" height="100px" alt="">
+        &nbsp;&nbsp;
+        <menu-nav class="link-nav">Participe</menu-nav>
+        &nbsp;&nbsp;
+        <menu-nav class="link-nav">Contato</menu-nav>
+        &nbsp;&nbsp;
+        <menu-nav class="link-nav">Newsletter</menu-nav>
+        &nbsp;&nbsp;
+      </a>
+    </nav>
+    <!-- Mobile -->
+    <nav class="navbar mobile text-center">
+      <a>
+        <img src="img/logo.png" height="100px" alt="">
+        <br>
+      </a>
+    </nav>
+
+    <!-- Desktop -->
+    <div class="img-responsive img-center desktop" style="background: url('img/fundo_1.jpg'); background-repeat: no-repeat; background-size: cover; background-position : center;">
+      <div class="container-fluid text-center justify-content-center" style="background-color: rgba(0,0,0,0.5); color: white">
+        <div class="row">
+          <div class="col">
+          </div>
+          <div class="col-6">
+            <p class="titulo-secao">
+              Sobre
+            </p>
+            <p class="texto-secao" style="background-color: rgba(0,0,0,0.3);">
+              <a class="subtitulo-secao">Quem Somos?</a>
+              <br><br>
+              A Sabedorio foi idealizada por dois jovens universitários que se conhecem desde o ensino fundamental. Depois de enfrentarem muitos desafios decidiram olhar e cuidar dos que estao passando ou irao passar pelo que eles passaram. Iluminando a trilha desses garotos e garotas para um futuro melhor.
+              <br><br>
+              <a class="subtitulo-secao">O que somos?</a>
+              <br><br>
+              Uma iniciativa com o objetivo de provocar e inspirar mudancas no sistema de ensino público. Orientando e dando todo o suporte, que desejavamos ter quando comecamos a mudar nossas próprias vidas, para os estudantes de hoje, entendendo que em um mundo cada vez mais dinamico devemos renovar e recriar a maneira atual de ensinar indo bem além da caixa de aula.
+            </p>
+          </div>
+          <div class="col">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile -->
+    <div class="img-responsive img-center mobile" style="background: url('img/fundo_1.jpg'); background-repeat: no-repeat; background-size: cover; background-position : center;">
+      <div class="container-fluid text-center justify-content-center" style="background-color: rgba(0,0,0,0.5); color: white">
+        <div class="row">
+          <div class="col">
+          </div>
+          <div class="col-12">
+            <p class="titulo-secao">
+              Sobre
+            </p>
+            <p class="texto-secao" style="background-color: rgba(0,0,0,0.3);">
+              <a class="subtitulo-secao">Quem Somos?</a>
+              <br><br>
+              A Sabedorio foi idealizada por dois jovens universitários que se conhecem desde o ensino fundamental. Depois de enfrentarem muitos desafios decidiram olhar e cuidar dos que estao passando ou irao passar pelo que eles passaram. Iluminando a trilha desses garotos e garotas para um futuro melhor.
+              <br><br>
+              <a class="subtitulo-secao">O que somos?</a>
+              <br><br>
+              Uma iniciativa com o objetivo de provocar e inspirar mudancas no sistema de ensino público. Orientando e dando todo o suporte, que desejavamos ter quando comecamos a mudar nossas próprias vidas, para os estudantes de hoje, entendendo que em um mundo cada vez mais dinamico devemos renovar e recriar a maneira atual de ensinar indo bem além da caixa de aula.
+            </p>
+          </div>
+          <div class="col">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="">
+      <div class="container-fluid text-center justify-content-center" style="background-color: rgba(0,0,0,0.0); color: black">
+        <div class="row">
+          <div class="col">
+          </div>
+          <div class="col-8">
+            <p class="titulo-secao">
+              Como?
+            </p>
+            <p class="texto-secao" style="background-color: rgba(0,0,0,0.0);">
+              Sabemos que mudancas dessa magnitude nao sao nada fáceis mas temos algumas ferramentas com a gente que tornarao isso bem mais fácil, vamos apresentá-los a elas:
+            </p>
+            <!-- Linha 1 -->
+            <div class="row">
+              <div class="col m-1" style="border-style: solid; border-width: 2px; border-color: #859e2a;">
+                <br>
+                <img src="img/logo2.png" height="100px" alt="">
+                <br>
+                <a class="subtitulo-secao">
+                  Vanderlei Cordeiro
+                </a>
+                <br>
+                <a>
+                  Inspirados por sua incrível história de superacao no esporte decidimos homenagear esse programa auxiliando jovens que veem no esporte uma oportunidade para mudarem suas vidas para melhor.
+                  <br><br>
+                </a>
+              </div>
+              <div class="col m-1"  style="border-style: solid; border-width: 2px; border-color: #d2d66f;">
+                <br>
+                <img src="img/logo2.png" height="100px" alt="">
+                <br>
+                <a class="subtitulo-secao">
+                  Sabedomundo
+                </a>
+                <br>
+                <a>
+                  Viajar é mais do que conhecer o mundo, é conhecer a si mesmo e com esse programa vamos informar e orientar esses adolescentes de que eles também podem e devem conhecer um pouco do nosso lindo planeta.
+                  <br><br>
+                </a>
+              </div>
+            </div>
+            <br>
+            <!-- Linha 2 -->
+            <div class="row">
+              <div class="col m-1" style="border-style: solid; border-width: 2px; border-color: #d2d66f;">
+                <br>
+                <img src="img/logo2.png" height="100px" alt="">
+                <br>
+                <a class="subtitulo-secao">
+                  Vanderlei Cordeiro
+                </a>
+                <br>
+                <a>
+                  Inspirados por sua incrível história de superacao no esporte decidimos homenagear esse programa auxiliando jovens que veem no esporte uma oportunidade para mudarem suas vidas para melhor.
+                  <br><br>
+                </a>
+              </div>
+              <br>
+              <div class="col m-1" style="border-style: solid; border-width: 2px; border-color: #859e2a;">
+                <br>
+                <img src="img/logo2.png" height="100px" alt="">
+                <br>
+                <a class="subtitulo-secao">
+                  Sabedomundo
+                </a>
+                <br>
+                <a>
+                  Viajar é mais do que conhecer o mundo, é conhecer a si mesmo e com esse programa vamos informar e orientar esses adolescentes de que eles também podem e devem conhecer um pouco do nosso lindo planeta.
+                  <br><br>
+                </a>
+              </div>
+            </div>
+            <br>
+            <!-- Linha 3 -->
+            <div class="row">
+              <div class="col m-1" style="border-style: solid; border-width: 2px; border-color: #859e2a;">
+                <br>
+                <img src="img/logo2.png" height="100px" alt="">
+                <br>
+                <a class="subtitulo-secao">
+                  Vanderlei Cordeiro
+                </a>
+                <br>
+                <a>
+                  Inspirados por sua incrível história de superacao no esporte decidimos homenagear esse programa auxiliando jovens que veem no esporte uma oportunidade para mudarem suas vidas para melhor.
+                  <br><br>
+                </a>
+              </div>
+              <br>
+              <div class="col m-1" style="border-style: solid; border-width: 2px; border-color: #d2d66f;">
+                <br>
+                <img src="img/logo2.png" height="100px" alt="">
+                <br>
+                <a class="subtitulo-secao">
+                  Sabedomundo
+                </a>
+                <br>
+                <a>
+                  Viajar é mais do que conhecer o mundo, é conhecer a si mesmo e com esse programa vamos informar e orientar esses adolescentes de que eles também podem e devem conhecer um pouco do nosso lindo planeta.
+                  <br><br>
+                </a>
+              </div>
+            </div>
+            <br><br><br>
+          </div>
+          <div class="col">
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Equipe -->
+
+    <div class="img-responsive img-center" style="background: url('img/fundo_1.jpg'); background-repeat: no-repeat; background-size: cover; background-position : center;">
+      <div class="container-fluid text-center justify-content-center" style="background-color: rgba(0,0,0,0.5); color: white">
+        <div class="row">
+          <div class="col">
+          </div>
+          <div class="col-10">
+            <p class="titulo-secao">
+              Equipe
+            </p>
+            <div class="row" style="background-color: rgba(0,0,0,0.3);">
+              <div class="col">
+                <br><br>
+                <img src="img/equipe3.jpg" height="400px" alt="">
+                <br><br>
+                <a class="subtitulo-secao">Luan Lopes</a>
+                <br><br>
+                <a class="texto-secao">Presidente da Sabedorio, atualmente cursando engenharia elétrica na UFRJ, ex-aluno do CPII e CEFET, neste último tendo cursado técnico em eletrotecnica.</a>
+                <br><br>
+              </div>
+              <div class="col">
+                <br><br>
+                <img src="img/equipe1.jpg" height="400px" alt="">
+                <br><br>
+                <a class="subtitulo-secao">Isaac Araújo</a>
+                <br><br>
+                <a class="texto-secao">Vice-presidente da Sabedorio, atualmente cursando engenharia de producao na PUC-RJ, escrevam suas características.</a>
+                <br><br>
+              </div>
+              <div class="col">
+                <br><br>
+                <img src="img/equipe2.jpg" height="400px" alt="">
+                <br><br>
+                <a class="subtitulo-secao">Rubyson Nascimento</a>
+                <br><br>
+                <a class="texto-secao">Secretário da Sabedorio, atualmente cursando engenharia de producao na PUC-RJ, escrevam suas características.</a>
+                <br><br>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+          </div>
+        </div>
+        <br><br><br><br>
+      </div>
+    </div>
+
+    <div class="img-responsive img-center desktop" style="background-color: #323133">
+      <div class="container-fluid text-center justify-content-center" style="background-color: rgba(0,0,0,0.5); color: white">
+        <div class="row">
+          <div class="col">
+          </div>
+          <div class="col-10">
+            <p class="titulo-citacao">
+              <button type="button" class="btn btn-danger" onclick="citacao1();">Isaac e sua história</button>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <button type="button" class="btn btn-danger" onclick="citacao2();">Luan e sua história</button>
+            </p>
+            <p id="citacao1" class="texto-citacao" style="background-color: rgba(0,0,0,0.3); display: none;">
+              <br><br>
+              Seu Josenildo e Dona Tereza vieram do nordeste tentar a sorte no Rio de Janeiro, ele conseguiu um emprego de zelador na Barra da tijuca, onde tinha direito à uma moradia no mesmo local, se estruturou ali, construiu sua família e residiu por 28 anos. Assim Isaac, filho do casal, nasceu e foi criado neste prédio no Jardim Oceânico. Tendo amigos ricos sendo pobre, Isaac desde a infância foi apresentado ao mundo do luxo, mas também teve que ser maduro para viver dentro amigos da sua realidade. Por vezes, se viu discriminado pelos seus "amigos" por ser o filho do porteiro. Isaac estudou a maior parte de sua educação básica em escolas públicas e quando chegou no 9º ano do Ensino Fundamental, viu que seus anseios e dúvidas não eram supridas pelo Ensino Público, por isso entrou para um colégio particular com bolsa e começou a trabalhar. O colégio particular era lotado de adolescentes que não queriam nada além de se entupir de drogas e falir os pais abastados financeiramente. No trabalho, era apenas um jovem vendedor aprendiz e o tempo de trabalho tirava totalmente seu foco nos estudos o que o fez largá-los por um tempo. Após largar os estudos, Isaac trabalhou em lojas por um curto intervalo de tempo, quando não se sentiu realizado no mercado de trabalho e, sem novas oportunidades, ele decidiu que queria terminar os estudos e cursar engenharia. Então ele encontrou seu amigo Luan, que o ajudou a encontrar meios para estudar sozinho e alcançar seu projeto. Foi um ano de estudo solitário sem êxito e em certo momento, se enxergava sem amigos, solitário e desperdiçando sua juventude por um sonho intangível. Precisava de ajuda, ao menos um curso presencial para lhe dar um Norte e por isso recorreu a um curso Pré-Vestibular. Hoje, Issac é universitário. Faz Engenharia de Produção com bolsa na PUC-RJ e sabe o quanto seu caminho poderia ter sido diferente se no seu 9° ano lhe fosse oferecida uma orientação adequada e uma educação pública voltada para o pensamento no futuro e a conscientização de que o destino de cada adolescente está ligado as suas escolhas.
+              <br><br>
+            </p>
+            <p id="citacao2" class="texto-citacao" style="background-color: rgba(0,0,0,0.3); display: none">
+              <br><br>
+              Um dia o Sr. Cruz foi visitar a sua mãe num povoado no interior de Sergipe, Brasil, e perguntou a ela se conhecia alguma moça que pudesse trabalhar na sua casa, já que muitas das moças que haviam trabalhado para ele o haviam roubado e pensou que talvez alguma moça do seu povoado natal agiria de maneira diferente. Assim decidiu empregar uma moça chamada Railda, por sugestão de sua mãe.
+    Assim, Sr. Cruz e Railda partiram pro Rio de Janeiro. Mas ele não sabia que a moça estava grávida. No momento em que descobriu, ficou na dúvida se mandaria a moça voltar ao seu povoado ou se deixaria que ela vivesse e criasse o garoto na sua casa enquanto trabalhava lá. Ele escolheu a segunda opção e criaram o menino, filho de Railda, foi crescendo e construindo uma bonita amizade com o  Cruz, como a relacao de um avô e seu neto.
+   A carente realidade de sua escola, onde não se podia contar com uma boa formação, materiais ou oportunidades que seriam necessárias para que lhes permitissem mostrar que meninos como ele eram muito mais do que meninos já dados como perdidos.
+    No último ano do Ensino Fundamental, depois de estudar sozinho em seu conputador, o menino, filho de Railda, conseguiu ser aprovado no Colégio Don Pedro II e logo depois no CEFET onde realizou um curso técnico em eletrotécnica. Posteriormente, foi aprovado no curso de Engenharia Elétrica  na UFRJ.
+    Nesses momento, o menino percebeu que muitos dos que estudaram com ele nos primeiros anos de sua formação estavam desperdiçando seus talentos enquanto trabalhavam em empregos básicos.
+    Como poderia concretizar esse objetivo? Pois bem, decidiu fazer algo para mudar a situação a qual seus amigos passaram a anos atrás e muitos ainda passam atualmente. Uniu-se ao seu amigo de infância Isaac, que também passou por situações similares as dele, para que o ajudasse com essa missão.
+    Assim sugiu a Sabedorio, uma ONG com o objetivo de preparar jovens do Ensino Fundamental, já que se pode observar que esse é o último "turning point" para que um menino mude sua vida positivamente, sem muitos contratempos.
+Sim, é possível preparar e aplicar um exame para um colégio público de excelência e fazer todo o Ensino Médio com mais qualidade, como fez o filho de Railda. Por isso vamos tentar remediar o problema do Ensino Público nesse aspecto.
+              <br><br>
+            </p>
+          </div>
+          <div class="col">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function citacao1()
+      {
+        var citacao = document.getElementById('citacao1').style.display;
+        if(citacao == "none")
+        {
+          document.getElementById('citacao1').style.display = "block";
+          document.getElementById('citacao2').style.display = "none";
+        }
+        else
+        {
+          document.getElementById('citacao1').style.display = "none";
+          document.getElementById('citacao2').style.display = "none";
+        }
+      }
+      function citacao2()
+      {
+        var citacao = document.getElementById('citacao2').style.display;
+        if(citacao == "none")
+        {
+          document.getElementById('citacao2').style.display = "block";
+          document.getElementById('citacao1').style.display = "none";
+        }
+        else
+        {
+          document.getElementById('citacao2').style.display = "none";
+          document.getElementById('citacao1').style.display = "none";
+        }
+      }
+    </script>
+
+
+    <div class="img-responsive img-center desktop" style="background: url('img/fundo_1.jpg'); background-repeat: no-repeat; background-size: cover; background-position : center;">
+      <div class="container-fluid text-center justify-content-center" style="background-color: rgba(0,0,0,0.5); color: white">
+        <div class="row">
+          <div class="col">
+          </div>
+          <div class="col-6">
+            <p class="titulo-secao">
+              Participe!
+            </p>
+            <p class="texto-secao" style="background-color: rgba(0,0,0,0.3);">
+              <br><br>
+              Se voce também acredita que a mudanca na educacao deve comecar agora e tem algo a contribuir em algum de nossos projetos, nao perca tempo, sua ajuda é muito valiosa para nós. Se junte a nossa iniciativa, Clique no botao abaixo!
+              <br><br><br>
+              <button type="button" class="btn btn-outline-info">Participe você também</button>
+              <br><br>
+              <br>
+            </p>
+          </div>
+          <div class="col">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="img-responsive img-center desktop" style="background: url('img/fundo_1.jpg'); background-repeat: no-repeat; background-size: cover; background-position : center;">
+      <div class="container-fluid text-center justify-content-center" style="background-color: rgba(0,0,0,0.5); color: white">
+        <br><br>
+        <div class="row">
+          <div class="col">
+          </div>
+          <div class="col-10" style="background-color: rgba(0,0,0,0.3)">
+            <p class="titulo-secao">
+              Contato
+            </p>
+          </div>
+          <div class="col">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+          </div>
+          <div class="col-5" style="background-color: rgba(0,0,0,0.3)">
+            <br>
+            Email: sabedorioeducacao@gmail.com
+            <br><br>
+            Facebook: Facebook/sabedorioeducacao
+            <br><br>
+            Instagram; @sabedorioeducacao
+            <br><br>
+          </div>
+          <div class="col-5" style="background-color: rgba(0,0,0,0.3)">
+            <!-- Mailchimp -->
+          </div>
+          <div class="col">
+          </div>
+        </div>
+        <br><br>
+      </div>
+    </div>
+
+
+  </body>
