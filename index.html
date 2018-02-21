@@ -58,7 +58,6 @@
     }
     .texto-secao
     {
-      margin-bottom: 100px;
       font-weight: 300;
       font-size: 20px;
     }
@@ -115,7 +114,6 @@
     }
     .texto-secao
     {
-      margin-bottom: 100px;
       font-weight: 300;
       font-size: 20px;
     }
@@ -136,6 +134,19 @@
       font-size: 20px;
     }
   }
+
+  @media (max-width: 408px)
+  {
+    .subtitulo-secao
+    {
+      font-size: 25px;
+    }
+    .titulo-secao
+    {
+      font-size: 40px;
+    }
+  }
+
 
   </style>
   <body style="font-family: nexaL;">
@@ -160,6 +171,14 @@
         &nbsp;&nbsp;
       </a>
     </nav>
+    <nav class="navbar desktop text-center" style="border-bottom: 2px solid #458E1D;">
+      <a href="#">
+        <img src="img/pt.png" height="50px" alt="">
+      </a>
+      <a href="#">
+        <img src="img/spain-2.png" height="50px" alt="">
+      </a>
+    </nav>
     <!-- Mobile -->
     <nav class="navbar mobile text-center">
       <a>
@@ -167,26 +186,36 @@
         <br>
       </a>
     </nav>
+    <nav class="navbar mobile text-center" style="border-bottom: 2px solid #458E1D;">
+      <a href="#">
+        <img src="img/pt.png" height="50px" alt="">
+      </a>
+      <a href="#">
+        <img src="img/spain-2.png" height="50px" alt="">
+      </a>
+    </nav>
 
     <!-- Desktop -->
-    <div class="img-responsive img-center desktop" style="background: url('img/fundo_1.jpg'); background-repeat: no-repeat; background-size: cover; background-position : center;">
-      <div class="container-fluid text-center justify-content-center" style="background-color: rgba(0,0,0,0.5); color: white">
+    <div style="background-color: white;border-bottom: 2px solid #458E1D;" class="desktop" >
+      <div class="container-fluid text-center justify-content-center" style="color: black">
         <div class="row">
           <div class="col">
           </div>
           <div class="col-6">
-            <p class="titulo-secao">
+            <!-- <p class="titulo-secao">
               Sobre
+            </p> -->
+            <br><br>
+            <p class="texto-secao" style="background-color: rgba(0,0,0,0.15);">
+              <!-- <a class="subtitulo-secao">Quem Somos?</a> -->
+              <br><br>
+              Acreditamos que as pessoas transformadas pela educação são potencializadas a mudar seu panorama, e é por isso que lutamos.
+              <br><br>
+              <!-- <a class="subtitulo-secao">O que somos?</a>
+              <br><br>
+              Uma iniciativa com o objetivo de provocar e inspirar mudanças no sistema de ensino público. Orientando e dando todo o suporte, que desejávamos ter quando começamos a mudar nossas próprias vidas, para os estudantes de hoje, entendendo que em um mundo cada vez mais dinâmico devemos renovar e recriar a atual maneira de ensinar, indo bem além da caixa de aula. -->
             </p>
-            <p class="texto-secao" style="background-color: rgba(0,0,0,0.3);">
-              <a class="subtitulo-secao">Quem Somos?</a>
-              <br><br>
-              A Sabedorio foi idealizada por dois jovens universitários que se conhecem desde o ensino fundamental. Depois de enfrentarem muitos desafios decidiram olhar e cuidar dos que estao passando ou irao passar pelo que eles passaram. Iluminando a trilha desses garotos e garotas para um futuro melhor.
-              <br><br>
-              <a class="subtitulo-secao">O que somos?</a>
-              <br><br>
-              Uma iniciativa com o objetivo de provocar e inspirar mudancas no sistema de ensino público. Orientando e dando todo o suporte, que desejavamos ter quando comecamos a mudar nossas próprias vidas, para os estudantes de hoje, entendendo que em um mundo cada vez mais dinamico devemos renovar e recriar a maneira atual de ensinar indo bem além da caixa de aula.
-            </p>
+            <br><br>
           </div>
           <div class="col">
           </div>
@@ -195,23 +224,24 @@
     </div>
 
     <!-- Mobile -->
-    <div class="img-responsive img-center mobile" style="background: url('img/fundo_1.jpg'); background-repeat: no-repeat; background-size: cover; background-position : center;">
-      <div class="container-fluid text-center justify-content-center" style="background-color: rgba(0,0,0,0.5); color: white">
+    <div style="background-color: white;border-bottom: 2px solid #458E1D;" class="mobile">
+      <div class="container-fluid text-center justify-content-center" style="color: black">
         <div class="row">
           <div class="col">
           </div>
           <div class="col-12">
-            <p class="titulo-secao">
+            <!-- <p class="titulo-secao">
               Sobre
-            </p>
-            <p class="texto-secao" style="background-color: rgba(0,0,0,0.3);">
-              <a class="subtitulo-secao">Quem Somos?</a>
+            </p> -->
+            <br><br>
+            <p class="texto-secao" style="background-color: rgba(0,0,0,0.15);">
+              <!-- <a class="subtitulo-secao">Quem Somos?</a> -->
               <br><br>
-              A Sabedorio foi idealizada por dois jovens universitários que se conhecem desde o ensino fundamental. Depois de enfrentarem muitos desafios decidiram olhar e cuidar dos que estao passando ou irao passar pelo que eles passaram. Iluminando a trilha desses garotos e garotas para um futuro melhor.
+              Acreditamos que as pessoas transformadas pela educação são potencializadas a mudar seu panorama, e é por isso que lutamos.
               <br><br>
-              <a class="subtitulo-secao">O que somos?</a>
+              <!-- <a class="subtitulo-secao">O que somos?</a>
               <br><br>
-              Uma iniciativa com o objetivo de provocar e inspirar mudancas no sistema de ensino público. Orientando e dando todo o suporte, que desejavamos ter quando comecamos a mudar nossas próprias vidas, para os estudantes de hoje, entendendo que em um mundo cada vez mais dinamico devemos renovar e recriar a maneira atual de ensinar indo bem além da caixa de aula.
+              Uma iniciativa com o objetivo de provocar e inspirar mudanças no sistema de ensino público. Orientando e dando todo o suporte, que desejávamos ter quando começamos a mudar nossas próprias vidas, para os estudantes de hoje, entendendo que em um mundo cada vez mais dinâmico devemos renovar e recriar a atual maneira de ensinar, indo bem além da caixa de aula. -->
             </p>
           </div>
           <div class="col">
@@ -221,17 +251,17 @@
     </div>
 
 
-    <div class="">
+    <div class="" style="border-bottom: 2px solid #458E1D;">
       <div class="container-fluid text-center justify-content-center" style="background-color: rgba(0,0,0,0.0); color: black">
         <div class="row">
           <div class="col">
           </div>
           <div class="col-8">
             <p class="titulo-secao">
-              Como?
+              Nossos programas:
             </p>
             <p class="texto-secao" style="background-color: rgba(0,0,0,0.0);">
-              Sabemos que mudancas dessa magnitude nao sao nada fáceis mas temos algumas ferramentas com a gente que tornarao isso bem mais fácil, vamos apresentá-los a elas:
+              Sabemos que mudanças dessa magnitude não são nada fáceis mas temos algumas ferramentas com a gente que tornarão isso bem mais fácil, vamos apresentá-los a elas:
             </p>
             <!-- Linha 1 -->
             <div class="row">
@@ -244,7 +274,7 @@
                 </a>
                 <br>
                 <a>
-                  Inspirados por sua incrível história de superacao no esporte decidimos homenagear esse programa auxiliando jovens que veem no esporte uma oportunidade para mudarem suas vidas para melhor.
+                  Auxiliaremos jovens que veem nos esportes uma saída para mudarem suas vidas para melhor.
                   <br><br>
                 </a>
               </div>
@@ -257,7 +287,7 @@
                 </a>
                 <br>
                 <a>
-                  Viajar é mais do que conhecer o mundo, é conhecer a si mesmo e com esse programa vamos informar e orientar esses adolescentes de que eles também podem e devem conhecer um pouco do nosso lindo planeta.
+                  Vamos direcionar e orientar esses adolescentes para que eles possam conhecer um pouco do nosso lindo planeta.
                   <br><br>
                 </a>
               </div>
@@ -270,11 +300,11 @@
                 <img src="img/logo2.png" height="100px" alt="">
                 <br>
                 <a class="subtitulo-secao">
-                  Vanderlei Cordeiro
+                	Esparta
                 </a>
                 <br>
                 <a>
-                  Inspirados por sua incrível história de superacao no esporte decidimos homenagear esse programa auxiliando jovens que veem no esporte uma oportunidade para mudarem suas vidas para melhor.
+                  Armados com canetas e livros para as batalhas da vida, os alunos serão preparados para diversas provas de admissão de escolas públicas de excelência.
                   <br><br>
                 </a>
               </div>
@@ -284,11 +314,11 @@
                 <img src="img/logo2.png" height="100px" alt="">
                 <br>
                 <a class="subtitulo-secao">
-                  Sabedomundo
+                  Sabedomais
                 </a>
                 <br>
                 <a>
-                  Viajar é mais do que conhecer o mundo, é conhecer a si mesmo e com esse programa vamos informar e orientar esses adolescentes de que eles também podem e devem conhecer um pouco do nosso lindo planeta.
+                  Através de palestras com especialistas e experts de diversas áreas, enriqueceremos o conhecimento de nossos alunos sobre diversos temas.
                   <br><br>
                 </a>
               </div>
@@ -301,11 +331,11 @@
                 <img src="img/logo2.png" height="100px" alt="">
                 <br>
                 <a class="subtitulo-secao">
-                  Vanderlei Cordeiro
+                  Conta CMG
                 </a>
                 <br>
                 <a>
-                  Inspirados por sua incrível história de superacao no esporte decidimos homenagear esse programa auxiliando jovens que veem no esporte uma oportunidade para mudarem suas vidas para melhor.
+                  Contaremos com psicólogos de ouvidos atentos e muita empatia no coração para apoiarem esses jovens nessa fase tão complexa da vida que é a adolescência.
                   <br><br>
                 </a>
               </div>
@@ -315,11 +345,11 @@
                 <img src="img/logo2.png" height="100px" alt="">
                 <br>
                 <a class="subtitulo-secao">
-                  Sabedomundo
+                  SabedoArte
                 </a>
                 <br>
                 <a>
-                  Viajar é mais do que conhecer o mundo, é conhecer a si mesmo e com esse programa vamos informar e orientar esses adolescentes de que eles também podem e devem conhecer um pouco do nosso lindo planeta.
+                  Sensibilidade artística é de suma importância para termos uma visão mais apaixonada e otimista de nossa realidade. Isso é o que queremos despertar nos jovens que auxiliarmos.
                   <br><br>
                 </a>
               </div>
@@ -334,8 +364,8 @@
 
 <!-- Equipe -->
 
-    <div class="img-responsive img-center" style="background: url('img/fundo_1.jpg'); background-repeat: no-repeat; background-size: cover; background-position : center;">
-      <div class="container-fluid text-center justify-content-center" style="background-color: rgba(0,0,0,0.5); color: white">
+    <div style="background-color: white;border-bottom: 2px solid #458E1D;">
+      <div class="container-fluid text-center justify-content-center" style="color: black">
         <div class="row">
           <div class="col-1">
           </div>
@@ -343,14 +373,14 @@
             <p class="titulo-secao">
               Equipe
             </p>
-            <div class="row" style="background-color: rgba(0,0,0,0.3);">
+            <div class="row" style="background-color: rgba(0,0,0,0.15);">
               <div class="col">
                 <br><br>
                 <img src="img/equipe3.jpg" height="300px" alt="">
                 <br><br>
                 <a class="subtitulo-secao">Luan Lopes</a>
                 <br><br>
-                <a class="texto-secao">Presidente da Sabedorio, atualmente cursando engenharia elétrica na UFRJ, ex-aluno do CPII e CEFET, neste último tendo cursado técnico em eletrotecnica.</a>
+                <a class="texto-secao">Presidente da Sabedorio, atualmente cursando engenharia elétrica na UFRJ, ex-aluno do CPII e CEFET, neste último tendo cursado técnico em eletrotécnica.</a>
                 <br><br>
               </div>
               <div class="col">
@@ -359,7 +389,7 @@
                 <br><br>
                 <a class="subtitulo-secao">Isaac Araújo</a>
                 <br><br>
-                <a class="texto-secao">Vice-presidente da Sabedorio, atualmente cursando engenharia de producao na PUC-RJ, escrevam suas características.</a>
+                <a class="texto-secao">Vice-presidente da Sabedorio, atualmente cursando engenharia de produção na PUC-RJ.</a>
                 <br><br>
               </div>
               <div class="col">
@@ -368,7 +398,7 @@
                 <br><br>
                 <a class="subtitulo-secao">Rubyson Nascimento</a>
                 <br><br>
-                <a class="texto-secao">Secretário da Sabedorio, atualmente cursando engenharia de producao na PUC-RJ, escrevam suas características.</a>
+                <a class="texto-secao">Secretário da Sabedorio, atualmente cursando engenharia de produção na PUC-RJ.</a>
                 <br><br>
               </div>
             </div>
@@ -380,7 +410,9 @@
       </div>
     </div>
 
-    <div class="img-responsive img-center" style="background-color: #323133">
+<!-- Histórias -->
+
+    <!-- <div class="img-responsive img-center" style="background-color: #323133">
       <div class="container-fluid text-center justify-content-center" style="background-color: rgba(0,0,0,0.5); color: white">
         <div class="row">
           <div class="col-1">
@@ -399,19 +431,15 @@
             </p>
             <p id="citacao1" class="texto-citacao" style="background-color: rgba(0,0,0,0.3); display: none;">
               <br><br>
-              Seu Josenildo e Dona Tereza vieram do nordeste tentar a sorte no Rio de Janeiro, ele conseguiu um emprego de zelador na Barra da tijuca, onde tinha direito à uma moradia no mesmo local, se estruturou ali, construiu sua família e residiu por 28 anos. Assim Isaac, filho do casal, nasceu e foi criado neste prédio no Jardim Oceânico. Tendo amigos ricos sendo pobre, Isaac desde a infância foi apresentado ao mundo do luxo, mas também teve que ser maduro para viver dentro amigos da sua realidade. Por vezes, se viu discriminado pelos seus "amigos" por ser o filho do porteiro. Isaac estudou a maior parte de sua educação básica em escolas públicas e quando chegou no 9º ano do Ensino Fundamental, viu que seus anseios e dúvidas não eram supridas pelo Ensino Público, por isso entrou para um colégio particular com bolsa e começou a trabalhar. O colégio particular era lotado de adolescentes que não queriam nada além de se entupir de drogas e falir os pais abastados financeiramente. No trabalho, era apenas um jovem vendedor aprendiz e o tempo de trabalho tirava totalmente seu foco nos estudos o que o fez largá-los por um tempo. Após largar os estudos, Isaac trabalhou em lojas por um curto intervalo de tempo, quando não se sentiu realizado no mercado de trabalho e, sem novas oportunidades, ele decidiu que queria terminar os estudos e cursar engenharia. Então ele encontrou seu amigo Luan, que o ajudou a encontrar meios para estudar sozinho e alcançar seu projeto. Foi um ano de estudo solitário sem êxito e em certo momento, se enxergava sem amigos, solitário e desperdiçando sua juventude por um sonho intangível. Precisava de ajuda, ao menos um curso presencial para lhe dar um Norte e por isso recorreu a um curso Pré-Vestibular. Hoje, Issac é universitário. Faz Engenharia de Produção com bolsa na PUC-RJ e sabe o quanto seu caminho poderia ter sido diferente se no seu 9° ano lhe fosse oferecida uma orientação adequada e uma educação pública voltada para o pensamento no futuro e a conscientização de que o destino de cada adolescente está ligado as suas escolhas.
+              Seu Josenildo e Dona Tereza vieram do nordeste para tentar a sorte no Rio de Janeiro. Ele conseguiu um emprego de zelador, na Barra da tijuca, onde tinha direito à uma moradia no mesmo local, onde se estruturou, construiu sua família e residiu durante 28 anos. Assim, Isaac, filho do casal, nasceu e foi criado neste prédio no Jardim Oceânico. Vivenciando os opostos da pirâmide social e por vezes, se viu discriminado por seus "amigos" pelo fato de ser filho do porteiro. Isaac estudou a maior parte de sua educação básica em escolas públicas e quando chegou no 9º ano do Ensino Fundamental, viu que seus anseios e dúvidas não eram supridas pelo Ensino Público, devido a isso entrou para um colégio particular, com uma bolsa estudantil, e começou a trabalhar. Esse colégio era lotado de adolescentes que não queriam nada além de usar muitas drogas e gastar o dinheiro dos pais, abastados financeiramente. No trabalho, era apenas um jovem vendedor aprendiz e a jornada laboral interferia muito nos estudos, o que o fez largá-los por um tempo. Depois disso, Isaac continuou trabalhando em lojas por um curto intervalo de tempo, mas não se sentiu realizado no mercado de trabalho e, sem novas oportunidades, ele decidiu que queria terminar os estudos e cursar engenharia. Então, ele encontrou seu amigo Luan, que o ajudou a encontrar meios para estudar sozinho e alcançar seu objetivo. Foi um ano de estudo solitário sem êxito e em certo momento, se enxergava sem amigos, solitário e desperdiçando sua juventude por um sonho intangível. Percebeu que  precisava de alguma ajuda externa, ao menos um curso presencial para lhe dar um Norte e por isso recorreu a um curso Pré-Vestibular, onde conseguiu uma bolsa, Cubo. Hoje, Issac é universitário. Faz Engenharia de Produção, com bolsa, na PUC-RJ e sabe o quanto seu caminho poderia ter sido diferente se no seu 9° ano lhe fosse oferecido uma orientação adequada e uma educação pública voltada para o pensamento no futuro e a conscientização de que o destino de cada adolescente está ligado as suas escolhas.
               <br><br>
             </p>
             <p id="citacao2" class="texto-citacao" style="background-color: rgba(0,0,0,0.3); display: none">
               <br><br>
-              Um dia o Sr. Cruz foi visitar a sua mãe num povoado no interior de Sergipe, Brasil, e perguntou a ela se conhecia alguma moça que pudesse trabalhar na sua casa, já que muitas das moças que haviam trabalhado para ele o haviam roubado e pensou que talvez alguma moça do seu povoado natal agiria de maneira diferente. Assim decidiu empregar uma moça chamada Railda, por sugestão de sua mãe.
-    Assim, Sr. Cruz e Railda partiram pro Rio de Janeiro. Mas ele não sabia que a moça estava grávida. No momento em que descobriu, ficou na dúvida se mandaria a moça voltar ao seu povoado ou se deixaria que ela vivesse e criasse o garoto na sua casa enquanto trabalhava lá. Ele escolheu a segunda opção e criaram o menino, filho de Railda, foi crescendo e construindo uma bonita amizade com o  Cruz, como a relacao de um avô e seu neto.
-   A carente realidade de sua escola, onde não se podia contar com uma boa formação, materiais ou oportunidades que seriam necessárias para que lhes permitissem mostrar que meninos como ele eram muito mais do que meninos já dados como perdidos.
-    No último ano do Ensino Fundamental, depois de estudar sozinho em seu conputador, o menino, filho de Railda, conseguiu ser aprovado no Colégio Don Pedro II e logo depois no CEFET onde realizou um curso técnico em eletrotécnica. Posteriormente, foi aprovado no curso de Engenharia Elétrica  na UFRJ.
-    Nesses momento, o menino percebeu que muitos dos que estudaram com ele nos primeiros anos de sua formação estavam desperdiçando seus talentos enquanto trabalhavam em empregos básicos.
-    Como poderia concretizar esse objetivo? Pois bem, decidiu fazer algo para mudar a situação a qual seus amigos passaram a anos atrás e muitos ainda passam atualmente. Uniu-se ao seu amigo de infância Isaac, que também passou por situações similares as dele, para que o ajudasse com essa missão.
-    Assim sugiu a Sabedorio, uma ONG com o objetivo de preparar jovens do Ensino Fundamental, já que se pode observar que esse é o último "turning point" para que um menino mude sua vida positivamente, sem muitos contratempos.
-Sim, é possível preparar e aplicar um exame para um colégio público de excelência e fazer todo o Ensino Médio com mais qualidade, como fez o filho de Railda. Por isso vamos tentar remediar o problema do Ensino Público nesse aspecto.
+              Um dia o Sr. Cruz foi visitar Dona Maria,sua mãe, em Brejao, um povoado no interior de Sergipe, Brasil, e a perguntou se conhecia alguma mulher que pudesse trabalhar em sua casa. Já que muitas das moças que haviam trabalhado para ele o havia roubado e, então, pensou que talvez alguma garota de seu povoado natal agiria diferente. Assim decidiu empregar uma moça chamada Railda, por sugestão de Dona Maria.
+              Assim, eles dois partiram para o Rio de Janeiro. Porém, ele não sabia que a moça estava grávida. No momento em que descobriu, ficou na dúvida se a mandaria voltar ao seu povoado ou se a deixaria viver e criar o garoto em sua casa, enquanto trabalhava. Decidiu pela segunda opção e o menino, filho de Railda, foi crescendo e construindo uma bonita amizade com o Sr. Cruz, como a relação de um avô e seu neto.
+              A carente realidade de sua escola, onde não se podia contar com uma boa formação, materiais ou oportunidades os quais seriam necessários para que lhe permitisse mostrar que meninos como ele eram muito mais do que garotos perdidos.
+              No último ano do Ensino Fundamental, depois de estudar sozinho com seu computador, o Luan conseguiu ser aprovado no Colégio Dom Pedro II e logo depois no CEFET onde cursou um técnico em eletrotécnica. E posteriormente foi aprovado no curso de Engenharia Elétrica na UFRJ. Depois de muitas conversas com o Isaac, ele percebeu que muitos dos que estudaram com eles nos primeiros anos de suas formações estavam desperdiçando seus talentos trabalhando em empregos básicos.
               <br><br>
             </p>
           </div>
@@ -419,9 +447,9 @@ Sim, é possível preparar e aplicar um exame para um colégio público de excel
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <script>
+    <!-- <script>
       function citacao1()
       {
         var citacao = document.getElementById('citacao1').style.display;
@@ -450,11 +478,11 @@ Sim, é possível preparar e aplicar um exame para um colégio público de excel
           document.getElementById('citacao1').style.display = "none";
         }
       }
-    </script>
+    </script> -->
 
 
-    <div class="img-responsive img-center" style="background: url('img/fundo_1.jpg'); background-repeat: no-repeat; background-size: cover; background-position : center;">
-      <div class="container-fluid text-center justify-content-center" style="background-color: rgba(0,0,0,0.5); color: white">
+    <div style="background-color: white;border-bottom: 2px solid #458E1D;">
+      <div class="container-fluid text-center justify-content-center" style="color: black">
         <div class="row">
           <div class="col">
           </div>
@@ -462,9 +490,9 @@ Sim, é possível preparar e aplicar um exame para um colégio público de excel
             <p class="titulo-secao">
               Participe!
             </p>
-            <p class="texto-secao" style="background-color: rgba(0,0,0,0.3);">
+            <p class="texto-secao" style="background-color: rgba(0,0,0,0.15);">
               <br><br>
-              Se voce também acredita que a mudanca na educacao deve comecar agora e tem algo a contribuir em algum de nossos projetos, nao perca tempo, sua ajuda é muito valiosa para nós. Se junte a nossa iniciativa, Clique no botao abaixo!
+              Se você também acredita que a mudança na educação deve começar agora e se tem algo a contribuir em algum de nossos projetos, não perca tempo, sua ajuda é muito valiosa para nós. Junte-se a nossa iniciativa, Clique no botão abaixo!
               <br><br><br>
               <button type="button" class="btn btn-outline-info">Participe você também</button>
               <br><br>
@@ -479,13 +507,13 @@ Sim, é possível preparar e aplicar um exame para um colégio público de excel
 
 
 
-    <div class="img-responsive img-center" style="background: url('img/fundo_1.jpg'); background-repeat: no-repeat; background-size: cover; background-position : center;">
-      <div class="container-fluid" style="background-color: rgba(0,0,0,0.5); color: white">
+    <div style="background-color: white">
+      <div class="container-fluid" style="color: black">
         <br><br>
         <div class="row">
           <div class="col">
           </div>
-          <div class="col-lg-6 col-sm-12" style="background-color: rgba(0,0,0,0.3)">
+          <div class="col-lg-6 col-sm-12" style="background-color: rgba(0,0,0,0.15)">
             <p class="titulo-secao text-center justify-content-center">
               Contato
             </p>
@@ -496,9 +524,9 @@ Sim, é possível preparar e aplicar um exame para um colégio público de excel
         <div class="row">
           <div class="col">
           </div>
-          <div class="col-2" style="background-color: rgba(0,0,0,0.3)">
+          <div class="col-2" style="background-color: rgba(0,0,0,0.15)">
           </div>
-          <div class="col-lg-3 col-sm-12" style="background-color: rgba(0,0,0,0.3)">
+          <div class="col-lg-3 col-sm-12" style="background-color: rgba(0,0,0,0.15)">
             <br>
             <a class="btn btn-social-icon btn-reddit">
               <span class="far fa-envelope" style="color: black"></span>
@@ -513,7 +541,7 @@ Sim, é possível preparar e aplicar um exame para um colégio público de excel
             </a> &nbsp;&nbsp;&nbsp; @sabedorioeducacao
             <br><br>
           </div>
-          <div class="col-1" style="background-color: rgba(0,0,0,0.3)">
+          <div class="col-1" style="background-color: rgba(0,0,0,0.15)">
           </div>
           <div class="col">
           </div>
@@ -521,7 +549,7 @@ Sim, é possível preparar e aplicar um exame para um colégio público de excel
         <div class="row">
           <div class="col">
           </div>
-          <div class="col-lg-6 col-sm-12" style="background-color: rgba(0,0,0,0.3)">
+          <div class="col-lg-6 col-sm-12" style="background-color: rgba(0,0,0,0.15)">
 
             <!-- Begin MailChimp Signup Form -->
             <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
